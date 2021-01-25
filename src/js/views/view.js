@@ -3,7 +3,8 @@ import icons from 'url:../../img/icons.svg'; //parcel 2
 export default class view {
   _parentElement = document.querySelector('.recipe');
   _data;
-  _errorMessage = "Sorry I couldn't find that recipe. Please try another one";
+  _errorMessage =
+    "Sorry I couldn't find that recipe. Please try another one 😃 ";
   _message = '';
 
   render(data, render = true) {
